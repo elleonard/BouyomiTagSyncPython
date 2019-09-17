@@ -11,3 +11,5 @@ class config:
     return self.settings['bouyomi_root']
   def get_bouyomi_replace_path(self):
     return self.get_bouyomi_root() + "\\ReplaceTag.dic"
+  def get_output_md_path(self):
+    return self.settings['output_md']

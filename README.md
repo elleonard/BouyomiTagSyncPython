@@ -11,3 +11,9 @@ py bts.py
 ```
 
 ./config/replace.txtに所定の書式で変換規則を書くとボイスへのリンクを棒読みちゃんに登録してくれる。
+
+```
+py btmd.py
+```
+
+./config/replace.txtを読み込んで、登録音声のリストをmdファイルに出力してくれる。
